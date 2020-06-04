@@ -23,6 +23,14 @@
     align-items: center;
 }
 
+#page-search-results .cards{
+   /*grid-template-columns: 1fr; CASO FOR MOBILE*/
+}
+
+#page-search-results .cards img{
+    height: 200px;
+}
+
 @media (min-width: 1700px){
     #page-home{
         background-position-x: 40vw;
